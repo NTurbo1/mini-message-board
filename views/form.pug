@@ -1,0 +1,15 @@
+doctype html 
+
+html
+    head 
+        link(rel='stylesheet' href='/stylesheets/style.css')
+    body 
+        h2 New Message 
+        form(method = "POST" action="/new")
+            .name-input-div 
+                label(for="user-name") Name:   
+                input(id = "user-name" name = "userName" type="text")
+            .text-input-div 
+                label(for="message-text") Message: 
+                input(id = "message-text" name = "messageText" type="text")
+            button(type="submit") Send

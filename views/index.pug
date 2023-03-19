@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1= title
+  .messages-div
+    for message in locals.messages 
+      .message 
+        h3.user-name #{message.user}
+        span.added-date #{message.added}
+        p.message-text #{message.text}
+    a(href="/new") Add  
+
+     

@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.messages-div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
